@@ -1,5 +1,41 @@
 # Changelog
 
+## [1.4.0](https://github.com/ublue-os/bluefin/compare/v1.3.0...v1.4.0) (2023-11-29)
+
+
+### Features
+
+* add charm glow, remove vhs ([#654](https://github.com/ublue-os/bluefin/issues/654)) ([fe0480e](https://github.com/ublue-os/bluefin/commit/fe0480ea4c124c8c457995b15d27e179ff01003f))
+* add commit mono font ([#631](https://github.com/ublue-os/bluefin/issues/631)) ([cd1321e](https://github.com/ublue-os/bluefin/commit/cd1321e3749eb87a6884d4bdcad99b8d3097fcdd))
+* add hplip ([#678](https://github.com/ublue-os/bluefin/issues/678)) ([2cbe183](https://github.com/ublue-os/bluefin/commit/2cbe1832a17e4a39f4937455e74d375d39980a3a))
+* add just syntax checker ([#673](https://github.com/ublue-os/bluefin/issues/673)) ([59c03c9](https://github.com/ublue-os/bluefin/commit/59c03c94fbd4fcba9d7107e07b3b201776eca14a))
+* dev tools for dx ([#644](https://github.com/ublue-os/bluefin/issues/644)) ([833b044](https://github.com/ublue-os/bluefin/commit/833b0444ac0eb98499a02ede5cd21565e30d7198))
+* **dx:** add podman-compose ([#691](https://github.com/ublue-os/bluefin/issues/691)) ([8fb1dfa](https://github.com/ublue-os/bluefin/commit/8fb1dfa173d97a6c32b719457ba1848b96cf1c00))
+* increase inotify handles ([#659](https://github.com/ublue-os/bluefin/issues/659)) ([0b57e39](https://github.com/ublue-os/bluefin/commit/0b57e39e7e09ff244ba7454da4df7f47ba11c102))
+* **just:** combine devmode on/off with gum ([#685](https://github.com/ublue-os/bluefin/issues/685)) ([51d8f75](https://github.com/ublue-os/bluefin/commit/51d8f7593c4fb3d7318ef046b457316403c2692d))
+* **just:** enable/disable gnome-vrr ([#665](https://github.com/ublue-os/bluefin/issues/665)) ([1e0a42d](https://github.com/ublue-os/bluefin/commit/1e0a42d6a7f3ba0c15dac7b6fb99db5c566ff3ec))
+* mark Fedora 39 as stable ([#646](https://github.com/ublue-os/bluefin/issues/646)) ([f37a75d](https://github.com/ublue-os/bluefin/commit/f37a75dea2b283b5c6c446ca2c92fb8ee507f84c))
+* turn off login sounds by default ([#667](https://github.com/ublue-os/bluefin/issues/667)) ([572d681](https://github.com/ublue-os/bluefin/commit/572d681e899629c435a16d43a202e38742341bdd))
+* update quadlet to pass socket in, add additional documentaiton ([#651](https://github.com/ublue-os/bluefin/issues/651)) ([5f3b17e](https://github.com/ublue-os/bluefin/commit/5f3b17ec3411687d8be9dd885b25a9850144f0af))
+* **yafti:** add podman desktop ([#636](https://github.com/ublue-os/bluefin/issues/636)) ([827a2a0](https://github.com/ublue-os/bluefin/commit/827a2a05546dd548545bf319bcf98b49db053b2e))
+
+
+### Bug Fixes
+
+* add incus-agent ([#689](https://github.com/ublue-os/bluefin/issues/689)) ([92fd084](https://github.com/ublue-os/bluefin/commit/92fd084ad6be3ab11a4a9b1116b88fecbad50b89))
+* add missing virt-viewer for -dx ([#690](https://github.com/ublue-os/bluefin/issues/690)) ([35ed665](https://github.com/ublue-os/bluefin/commit/35ed6658d6469ebfd5215be7c442a401c08cd460))
+* Correct issues with desktop portal ([#647](https://github.com/ublue-os/bluefin/issues/647)) ([6234165](https://github.com/ublue-os/bluefin/commit/6234165d77792a8fd0725901f0fc74e26b81d9c4))
+* delete usr/share/backgrounds/lagoon.jpg ([#620](https://github.com/ublue-os/bluefin/issues/620)) ([fceb936](https://github.com/ublue-os/bluefin/commit/fceb93658f02947f504942d3282c68fc688b0318))
+* exclude evdi on asus ([#640](https://github.com/ublue-os/bluefin/issues/640)) ([b184c51](https://github.com/ublue-os/bluefin/commit/b184c510dff63479859fcbc9b66682fd18a7af5b))
+* **f39:** Restore evdi ([#628](https://github.com/ublue-os/bluefin/issues/628)) ([fe75d1d](https://github.com/ublue-os/bluefin/commit/fe75d1d74fb593dbb0430a3be38d9d292ec31eb0))
+* hide gnome-system-monitor .desktop file ([#668](https://github.com/ublue-os/bluefin/issues/668)) ([780d011](https://github.com/ublue-os/bluefin/commit/780d01189b2dc73e6f038fa91bcecc7fa149dff8))
+* increase open file limit ([#686](https://github.com/ublue-os/bluefin/issues/686)) ([bf32542](https://github.com/ublue-os/bluefin/commit/bf325429fe955108b7bb89c45716b90d6765781b))
+* **just:** add msg to devmode-on ([#624](https://github.com/ublue-os/bluefin/issues/624)) ([41bdf29](https://github.com/ublue-os/bluefin/commit/41bdf294c20a3903f4a0cf72105f466bf0676291))
+* remove ddccontrol ([#676](https://github.com/ublue-os/bluefin/issues/676)) ([9323df6](https://github.com/ublue-os/bluefin/commit/9323df637ff20b3a3562da67df902256094c9815))
+* revert DevPod to latest available RPM (v0.3.7) ([#627](https://github.com/ublue-os/bluefin/issues/627)) ([b7489e6](https://github.com/ublue-os/bluefin/commit/b7489e6d9e72df10ac4c771be4749ed543ff8e28))
+* turn off gnome vrr by default ([#674](https://github.com/ublue-os/bluefin/issues/674)) ([e75f1ec](https://github.com/ublue-os/bluefin/commit/e75f1ec47cf692e362528dbe961eb4afac980018))
+* update forum link ([#657](https://github.com/ublue-os/bluefin/issues/657)) ([d6dff26](https://github.com/ublue-os/bluefin/commit/d6dff262ae4803f48bfb4b4945e67b2f91cd3844))
+
 ## [1.3.0](https://github.com/ublue-os/bluefin/compare/v1.2.0...v1.3.0) (2023-10-27)
 
 
